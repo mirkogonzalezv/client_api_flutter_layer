@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:flutter_poc_network/commons/blocs/bloc_service/bloc_service.dart';
 import 'package:flutter_poc_network/commons/router/app_router.dart';
 
 class MyApp extends StatelessWidget {
@@ -6,9 +8,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
-      debugShowCheckedModeBanner: false,
-      routerConfig: router,
+    return MultiBlocProvider(
+      providers: blocServices(),
+      child: MaterialApp.router(
+        debugShowCheckedModeBanner: false,
+        routerConfig: router,
+      ),
     );
   }
 }

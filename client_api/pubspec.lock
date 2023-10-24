@@ -161,14 +161,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.3"
-  cupertino_icons:
-    dependency: "direct main"
-    description:
-      name: cupertino_icons
-      sha256: d57953e10f9f8327ce64a508a355f0b1ec902193f66288e8cb5070e7c47eeb2d
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.0.6"
   dart_style:
     dependency: transitive
     description:
@@ -185,30 +177,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.3.3"
-  dio_cache_interceptor:
-    dependency: transitive
-    description:
-      name: dio_cache_interceptor
-      sha256: "7c0cb435963f08aa751ae8769b360d462f01160adc1d2d5b80e3b8c450b386e3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.4.4"
-  dio_cache_interceptor_hive_store:
-    dependency: "direct main"
-    description:
-      name: dio_cache_interceptor_hive_store
-      sha256: "7a376b1db0a153e16ad51ce0cf1d2549ca14a2ddf462523c362fac9e077c5f14"
-      url: "https://pub.dev"
-    source: hosted
-    version: "3.2.1"
-  dio_intercept_to_curl:
-    dependency: "direct main"
-    description:
-      name: dio_intercept_to_curl
-      sha256: "3175ef46f918748e13f100b3dcd6a2874781c110de3e032e0982e9679237c4af"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -238,6 +206,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  flutter_lints:
+    dependency: "direct dev"
+    description:
+      name: flutter_lints
+      sha256: a25a15ebbdfc33ab1cd26c63a6ee519df92338a9c10f122adda92938253bef04
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -283,14 +259,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.1"
-  hive:
-    dependency: transitive
-    description:
-      name: hive
-      sha256: "8dcf6db979d7933da8217edcec84e9df1bdb4e4edc7fc77dbd5aa74356d6d941"
-      url: "https://pub.dev"
-    source: hosted
-    version: "2.2.3"
   http_multi_server:
     dependency: transitive
     description:
@@ -340,13 +308,13 @@ packages:
     source: hosted
     version: "6.7.1"
   lints:
-    dependency: "direct dev"
+    dependency: transitive
     description:
       name: lints
-      sha256: cbf8d4b858bb0134ef3ef87841abdf8d63bfc255c266b7bf6b39daa1085c4290
+      sha256: "0a217c6c989d21039f1498c3ed9f3ed71b354e69873f13a8dfc3c9fe76f1b452"
       url: "https://pub.dev"
     source: hosted
-    version: "3.0.0"
+    version: "2.1.1"
   logging:
     dependency: transitive
     description:
@@ -472,14 +440,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.10.0"
-  sprintf:
-    dependency: transitive
-    description:
-      name: sprintf
-      sha256: "1fc9ffe69d4df602376b52949af107d8f5703b77cda567c4d7d86a0693120f23"
-      url: "https://pub.dev"
-    source: hosted
-    version: "7.0.0"
   stack_trace:
     dependency: transitive
     description:
@@ -544,14 +504,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.3.2"
-  uuid:
-    dependency: transitive
-    description:
-      name: uuid
-      sha256: b715b8d3858b6fa9f68f87d20d98830283628014750c2b09b6f516c1da4af2a7
-      url: "https://pub.dev"
-    source: hosted
-    version: "4.1.0"
   vector_math:
     dependency: transitive
     description:
@@ -594,4 +546,4 @@ packages:
     version: "3.1.2"
 sdks:
   dart: ">=3.1.3 <4.0.0"
-  flutter: ">=1.20.0"
+  flutter: ">=1.17.0"
